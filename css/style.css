@@ -1,0 +1,81 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+header{
+    background-color: #333;
+    text-align: center;
+    color: white;
+    padding: 10px 10px 20px;
+}
+.container{
+    display: flex;
+    margin: 20px;
+}
+main{
+    flex: 3;
+    background-color: white;
+    margin-right: 20px;
+    padding: 20px;
+}
+aside{
+    flex: 1;
+    background-color: #f9f9f9;
+}
+footer{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+.card-container{
+    display: flex;
+    justify-content: space-around;
+}
+.card{
+    width: 28%;
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.card img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.card button{
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    background-color: #03344c;
+    color: #fff;
+}
+.card-container-1{
+    display: flex;
+    justify-content: space-around;
+}
+.card-1 img{
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.card-1{
+    width: 28%;
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.card:hover{
+    transform: scale(1.04);
+}
+.card-1:hover{
+    transform: scale(1.04);
+}
